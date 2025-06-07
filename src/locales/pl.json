@@ -1,0 +1,365 @@
+{
+    "translation": {
+        "taskStatus": {
+            "Pending": "Oczekujące",
+            "Overdue": "Zaległe",
+            "Completed": "Zakończone"
+        },
+        "sidebar": {
+            "header": {
+                "text": "Menu",
+                "buttonTitle": "Otwórz lub zamknij menu."
+            },
+            "items": {
+                "today": {
+                    "text": "Dzisiaj",
+                    "buttonTitle": "Przełącz na ekran 'Dzisiaj'."
+                },
+                "calendar": {
+                    "text": "Kalendarz",
+                    "buttonTitle": "Przełącz na ekran 'Kalendarz'."
+                },
+                "profile": {
+                    "text": "Profil",
+                    "buttonTitle": "Przełącz na ekran 'Profil'."
+                },
+                "settings": {
+                    "text": "Ustawienia",
+                    "buttonTitle": "Otwórz ustawienia."
+                },
+                "newList": {
+                    "text": "Nowa lista",
+                    "buttonTitle": "Stwórz nową listę."
+                },
+                "lists": {
+                    "text": "Listy",
+                    "buttonTitle": "Wyświetl swoje listy."
+                },
+                "listHeader": {
+                    "buttonTitle": "Wyświetl listę o nazwie"
+                },
+                "signOut": {
+                    "text": "Wyloguj",
+                    "buttonTitle": "Wyloguj się ze swojego konta."
+                }
+            }
+        },
+        "pages": {
+            "signIn": {
+                "headerStart": "Zaloguj się do",
+                "headerYour": "swojego",
+                "headerAccount": "konta",
+                "noAccount": "Nie masz konta?",
+                "signUp": "Zarejestruj się",
+                "emailPlaceholder": "Email",
+                "passwordPlaceholder": "Hasło",
+                "errorEmailRequired": "Email jest wymagany",
+                "errorPasswordRequired": "Hasło jest wymagane",
+                "errorPasswordLength": "Hasło musi mieć przynajmniej 8 znaków",
+                "buttonSettingsTitle": "Otwórz ustawienia.",
+                "buttonSubmitTitle": "Zaloguj się za pomocą podanych danych.",
+                "buttonText": "Zaloguj",
+                "toast": {
+                    "success": {
+                        "title": "Logowanie pomyślne"
+                    },
+                    "error": {
+                        "title": "Błąd",
+                        "text": "Coś poszło nie tak, proszę spróbuj ponownie później."
+                    }
+                }
+            },
+            "signUp": {
+                "headerStart": "Stwórz",
+                "headerAccount": "konto",
+                "noAccount": "Masz już konto?",
+                "signIn": "Zaloguj się",
+                "emailPlaceholder": "Email",
+                "usernamePlaceholder": "Nazwa użytkownika",
+                "passwordPlaceholder": "Hasło",
+                "errorEmailRequired": "Email jest wymagany",
+                "errorPasswordRequired": "Hasło jest wymagane",
+                "errorPasswordLength": "Hasło musi mieć przynajmniej 8 znaków",
+                "buttonSettingsTitle": "Otwórz ustawienia.",
+                "buttonSubmitTitle": "Utwórz nowe konto przy użyciu podanych danych.",
+                "buttonText": "Utwórz konto",
+                "toast": {
+                    "success": {
+                        "title": "Konto stworzone pomyślnie",
+                        "text": "Możesz teraz zalogować się za pomocą nowego konta."
+                    },
+                    "error": {
+                        "title": "Błąd",
+                        "text": "Coś poszło nie tak, proszę spróbuj ponownie później."
+                    }
+                }
+            },
+            "profile": {
+                "buttonTitle": "Usuń swoje konto.",
+                "buttonText": "Usuń konto"
+            }
+        },
+        "screens": {
+            "today": {
+                "header": "Dzisiaj",
+                "noTasks": "Na dziś nie przewidziano żadnych zadań."
+            },
+            "calendar": {
+                "header": "Kalendarz",
+                "noTasks": "Nie przewidziano żadnych zadań na wybraną datę.",
+                "buttonTodayTitle": "Wybierz dzisiejszy dzień.",
+                "buttonPrevYearTitle": "Przejdź do poprzedniego roku.",
+                "buttonPrevMonthTitle": "Przejdź do poprzedniego miesiąca.",
+                "buttonNextYearTitle": "Przejdź do następnego roku.",
+                "buttonNextMonthTitle": "Przejdź do następnego miesiąca.",
+                "buttonDayTitle": "Wybierz ten dzień.",
+                "weekdays": {
+                    "Mon": "Pon",
+                    "Tue": "Wto",
+                    "Wed": "Śro",
+                    "Thu": "Czw",
+                    "Fri": "Pią",
+                    "Sat": "Sob",
+                    "Sun": "Nie"
+                },
+                "months": {
+                    "January": "Styczeń",
+                    "February": "Luty",
+                    "March": "Marzec",
+                    "April": "Kwiecień",
+                    "May": "Maj",
+                    "June": "Czerwiec",
+                    "July": "Lipiec",
+                    "August": "Sierpień",
+                    "September": "Wrzesień",
+                    "October": "Październik",
+                    "November": "Listopad",
+                    "December": "Grudzień"
+                }
+            },
+            "profile": {
+                "header": "Profil"
+            },
+            "taskList": {
+                "noTasks": "Na tej liście nie ma żadnych zadań.",
+                "buttonDeleteTitle": "Usuń tę listę.",
+                "buttonUpdateTitle": "Edytuj tę listę.",
+                "buttonCreateTitle": "Stwórz nowe zadanie.",
+                "toast": {
+                    "delete": {
+                        "success": {
+                            "title": "Lista usunięta pomyślnie"
+                        },
+                        "error": {
+                            "title": "Błąd",
+                            "text": "Coś poszło nie tak, proszę spróbuj ponownie później."
+                        }
+                    }
+                }
+            }
+        },
+        "modals": {
+            "baseModal": {
+                "buttonCloseTitle": "Zamknij to okno."
+            },
+            "createList": {
+                "backgroundColorInput": {
+                    "label": "Kolor tła",
+                    "text": "Zdefiniuj tło listy"
+                },
+                "iconColorInput": {
+                    "label": "Kolor ikonki",
+                    "text": "Zdefiniuj kolor ikonki"
+                },
+                "textColorInput": {
+                    "label": "Kolor tekstu",
+                    "text": "Zdefiniuj kolor tekstu"
+                },
+                "nameInput": {
+                    "label": "Nazwa",
+                    "helperText": "Podaj nazwę listy",
+                    "placeholder": "Tutaj tekst...",
+                    "errorRequired": "Nazwa jest wymagana",
+                    "errorLength": "Nazwa musi mieć przynajmniej 3 znaki"
+                },
+                "buttonTitle": "Utwórz nową listę.",
+                "buttonText": "Zapisz",
+                "toast": {
+                    "success": {
+                        "title": "Lista stworzona pomyślnie",
+                        "text": "Twoja nowa lista powinna być teraz dostępna z paska bocznego."
+                    },
+                    "error": {
+                        "title": "Błąd",
+                        "text": "Coś poszło nie tak, proszę spróbuj ponownie później."
+                    }
+                }
+            },
+            "updateList": {
+                "backgroundColorInput": {
+                    "label": "Kolor tła",
+                    "text": "Zdefiniuj tło listy"
+                },
+                "iconColorInput": {
+                    "label": "Kolor ikonki",
+                    "text": "Zdefiniuj kolor ikonki"
+                },
+                "textColorInput": {
+                    "label": "Kolor tekstu",
+                    "text": "Zdefiniuj kolor tekstu"
+                },
+                "nameInput": {
+                    "label": "Nazwa",
+                    "helperText": "Podaj nazwę listy",
+                    "placeholder": "Tutaj tekst...",
+                    "errorRequired": "Nazwa jest wymagana",
+                    "errorLength": "Nazwa musi mieć przynajmniej 3 znaki"
+                },
+                "buttonTitle": "Zaktualizuj istniejącą listę.",
+                "buttonText": "Zaktualizuj",
+                "toast": {
+                    "success": {
+                        "title": "Lista zaktualizowana pomyślnie",
+                        "text": "Wszystkie zmiany powinny być teraz widoczne."
+                    },
+                    "error": {
+                        "title": "Błąd",
+                        "text": "Coś poszło nie tak, proszę spróbuj ponownie później."
+                    }
+                }
+            },
+            "createTask": {
+                "header": "Nowe zadanie",
+                "nameInput": {
+                    "label": "Nazwa",
+                    "helperText": "Podaj nazwę zadania",
+                    "placeholder": "Tutaj tekst...",
+                    "errorRequired": "Nazwa jest wymagana",
+                    "errorLength": "Nazwa musi mieć przynajmniej 3 znaki"
+                },
+                "descriptionInput": {
+                    "label": "Opis",
+                    "helperText": "Opisz zadanie",
+                    "placeholder": "Tutaj tekst..."
+                },
+                "dateTimeInput": {
+                    "label": "Data i czas",
+                    "helperText": "Zdefiniuj czas docelowy zadania"
+                },
+                "buttonTitle": "Utwórz nowe zadanie.",
+                "buttonText": "Zapisz",
+                "toast": {
+                    "success": {
+                        "title": "Zadanie stworzone pomyślnie",
+                        "text": "Twoje nowe zadanie powinno teraz pojawić się na wybranej liście."
+                    },
+                    "error": {
+                        "title": "Błąd",
+                        "text": "Coś poszło nie tak, proszę spróbuj ponownie później."
+                    }
+                }
+            },
+            "updateTask": {
+                "header": "Zaktualizuj zadanie",
+                "nameInput": {
+                    "label": "Nazwa",
+                    "helperText": "Podaj nową nazwę zadania",
+                    "placeholder": "Tutaj tekst...",
+                    "errorRequired": "Nazwa jest wymagana",
+                    "errorLength": "Nazwa musi mieć przynajmniej 3 znaki"
+                },
+                "descriptionInput": {
+                    "label": "Opis",
+                    "helperText": "Podaj nowy opis zadania",
+                    "placeholder": "Tutaj tekst..."
+                },
+                "dateTimeInput": {
+                    "label": "Data i czas",
+                    "helperText": "Zdefiniuj nowy czas docelowy zadania"
+                },
+                "buttonTitle": "Zaktualizuj istniejące zadanie.",
+                "buttonText": "Zaktualizuj",
+                "toast": {
+                    "success": {
+                        "title": "Zadanie zaktualizowane pomyślnie",
+                        "text": "Wszystkie zmiany powinny być teraz widoczne."
+                    },
+                    "error": {
+                        "title": "Błąd",
+                        "text": "Coś poszło nie tak, proszę spróbuj ponownie później."
+                    }
+                }
+            },
+            "taskLists": {
+                "header": "Listy zadań",
+                "noLists": "Nie posiadasz żadnych list zadań."
+            },
+            "settings": {
+                "header": "Ustawienia",
+                "theme": "Motyw",
+                "language": "Język",
+                "toast": "Powiadomienia",
+                "buttonLightTitle": "Przełącz na jasny motyw.",
+                "buttonDarkTitle": "Przełącz na ciemny motyw.",
+                "buttonEnTitle": "Przełącz na język angielski.",
+                "buttonPlTitle": "Przełącz na język polski.",
+                "buttonToastOnTitle": "Włącz powiadomienia.",
+                "buttonToastOffTitle": "Wyłącz powiadomienia."
+            },
+            "taskInfo": {
+                "created": "Stworzone",
+                "overdueBy": "Zaległe o",
+                "timeLeft": "Pozostały czas",
+                "completed": "Zakończone",
+                "due": "Termin",
+                "days": "Dni"
+            },
+            "deleteAccount": {
+                "header": "Usuń konto",
+                "text": "Zamierzasz usunąć swoje konto wraz ze wszystkimi powiązanymi danymi. Operacja ta jest nieodwracalna. Czy na pewno chcesz kontynuować?",
+                "buttonTitle": "Usuń swoje konto.",
+                "buttonText": "Usuń konto",
+                "toast": {
+                    "success": {
+                        "title": "Konto usunięte pomyślnie",
+                        "text": "Wszystkie informacje powiązane z twoim kontem zostały usunięte."
+                    },
+                    "error": {
+                        "title": "Błąd",
+                        "text": "Coś poszło nie tak, proszę spróbuj ponownie później."
+                    }
+                }
+            }
+        },
+        "task": {
+            "buttonToggleTitle": "Przełącz status tego zadania.",
+            "buttonUpdateTitle": "Edytuj to zadanie.",
+            "buttonDeleteTitle": "Usuń to zadanie.",
+            "buttonListTitle": "Przejdź do powiązanej listy.",
+            "buttonInfoTitle": "Otwórz informacje o zadaniu.",
+            "toast": {
+                "toggle": {
+                    "success": {
+                        "title": "Status zadania zaktualizowany pomyślnie"
+                    },
+                    "error": {
+                        "title": "Błąd",
+                        "text": "Coś poszło nie tak, proszę spróbuj ponownie później."
+                    }
+                },
+                "delete": {
+                    "success": {
+                        "title": "Zadanie usunięto pomyślnie"
+                    },
+                    "error": {
+                        "title": "Błąd",
+                        "text": "Coś poszło nie tak, proszę spróbuj ponownie później."
+                    }
+                }
+            }
+        },
+        "toast": {
+            "buttonTitle": "Zamknij to okno."
+        }
+    }
+}

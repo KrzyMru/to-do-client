@@ -1,0 +1,365 @@
+{
+    "translation": {
+        "taskStatus": {
+            "Pending": "Pending",
+            "Overdue": "Overdue",
+            "Completed": "Completed"
+        },
+        "sidebar": {
+            "header": {
+                "text": "Menu",
+                "buttonTitle": "Open or close menu."
+            },
+            "items": {
+                "today": {
+                    "text": "Today",
+                    "buttonTitle": "Switch to 'Today' screen."
+                },
+                "calendar": {
+                    "text": "Calendar",
+                    "buttonTitle": "Switch to 'Calendar' screen."
+                },
+                "profile": {
+                    "text": "Profile",
+                    "buttonTitle": "Switch to 'Profile' screen."
+                },
+                "settings": {
+                    "text": "Settings",
+                    "buttonTitle": "Open settings."
+                },
+                "newList": {
+                    "text": "New list",
+                    "buttonTitle": "Create a new list."
+                },
+                "lists": {
+                    "text": "Lists",
+                    "buttonTitle": "View all your lists."
+                },
+                "listHeader": {
+                    "buttonTitle": "View list named"
+                },
+                "signOut": {
+                    "text": "Sign out",
+                    "buttonTitle": "Sign out of your account."
+                }
+            }
+        },
+        "pages": {
+            "signIn": {
+                "headerStart": "Sign in to",
+                "headerYour": "your",
+                "headerAccount": "account",
+                "noAccount": "Don't have an account?",
+                "signUp": "Sign up",
+                "emailPlaceholder": "Email",
+                "passwordPlaceholder": "Password",
+                "errorEmailRequired": "Email is required",
+                "errorPasswordRequired": "Password is required",
+                "errorPasswordLength": "Password must be at least 8 characters long",
+                "buttonSettingsTitle": "Open settings.",
+                "buttonSubmitTitle": "Sign in with provided credentials.",
+                "buttonText": "Sign in",
+                "toast": {
+                    "success": {
+                        "title": "Signed in successfully"
+                    },
+                    "error": {
+                        "title": "Error",
+                        "text": "Something went wrong, please try again later."
+                    }
+                }
+            },
+            "signUp": {
+                "headerStart": "Create",
+                "headerAccount": "account",
+                "noAccount": "Already have an account?",
+                "signIn": "Sign in",
+                "emailPlaceholder": "Email",
+                "usernamePlaceholder": "Username",
+                "passwordPlaceholder": "Password",
+                "errorEmailRequired": "Email is required",
+                "errorPasswordRequired": "Password is required",
+                "errorPasswordLength": "Password must be at least 8 characters long",
+                "buttonSettingsTitle": "Open settings.",
+                "buttonSubmitTitle": "Create a new account with provided credentials.",
+                "buttonText": "Sign up",
+                "toast": {
+                    "success": {
+                        "title": "Account created successfully",
+                        "text": "You can now sign in using your new account."
+                    },
+                    "error": {
+                        "title": "Error",
+                        "text": "Something went wrong, please try again later."
+                    }
+                }
+            },
+            "profile": {
+                "buttonTitle": "Delete your account.",
+                "buttonText": "Delete account"
+            }
+        },
+        "screens": {
+            "today": {
+                "header": "Today",
+                "noTasks": "There are no tasks due today."
+            },
+            "calendar": {
+                "header": "Calendar",
+                "noTasks": "There are no tasks due on selected date.",
+                "buttonTodayTitle": "Select today.",
+                "buttonPrevYearTitle": "Go to previous year.",
+                "buttonPrevMonthTitle": "Go to previous month.",
+                "buttonNextYearTitle": "Go to next year.",
+                "buttonNextMonthTitle": "Go to next month.",
+                "buttonDayTitle": "Select this day.",
+                "weekdays": {
+                    "Mon": "Mon",
+                    "Tue": "Tue",
+                    "Wed": "Wed",
+                    "Thu": "Thu",
+                    "Fri": "Fri",
+                    "Sat": "Sat",
+                    "Sun": "Sun"
+                },
+                "months": {
+                    "January": "January",
+                    "February": "February",
+                    "March": "March",
+                    "April": "April",
+                    "May": "May",
+                    "June": "June",
+                    "July": "July",
+                    "August": "August",
+                    "September": "September",
+                    "October": "October",
+                    "November": "November",
+                    "December": "December"
+                }
+            },
+            "profile": {
+                "header": "Profile"
+            },
+            "taskList": {
+                "noTasks": "This list doesn't contain any tasks.",
+                "buttonDeleteTitle": "Delete this list.",
+                "buttonUpdateTitle": "Edit this list.",
+                "buttonCreateTitle": "Create a new task.",
+                "toast": {
+                    "delete": {
+                        "success": {
+                            "title": "List deleted successfully"
+                        },
+                        "error": {
+                            "title": "Error",
+                            "text": "Something went wrong, please try again later."
+                        }
+                    }
+                }
+            }
+        },
+        "modals": {
+            "baseModal": {
+                "buttonCloseTitle": "Close this window."
+            },
+            "createList": {
+                "backgroundColorInput": {
+                    "label": "Background color",
+                    "text": "Define list background"
+                },
+                "iconColorInput": {
+                    "label": "Icon color",
+                    "text": "Specify list icon color"
+                },
+                "textColorInput": {
+                    "label": "Text color",
+                    "text": "Set list text color"
+                },
+                "nameInput": {
+                    "label": "Name",
+                    "helperText": "Provide a name for your list",
+                    "placeholder": "Text here...",
+                    "errorRequired": "Name is required",
+                    "errorLength": "Name must be at least 3 characters long"
+                },
+                "buttonTitle": "Create a new list.",
+                "buttonText": "Save",
+                "toast": {
+                    "success": {
+                        "title": "List created successfully",
+                        "text": "Your new list should now be accessible from the sidebar."
+                    },
+                    "error": {
+                        "title": "Error",
+                        "text": "Something went wrong, please try again later."
+                    }
+                }
+            },
+            "updateList": {
+                "backgroundColorInput": {
+                    "label": "Background color",
+                    "text": "Define list background"
+                },
+                "iconColorInput": {
+                    "label": "Icon color",
+                    "text": "Specify list icon color"
+                },
+                "textColorInput": {
+                    "label": "Text color",
+                    "text": "Set list text color"
+                },
+                "nameInput": {
+                    "label": "Name",
+                    "helperText": "Provide a name for your list",
+                    "placeholder": "Text here...",
+                    "errorRequired": "Name is required",
+                    "errorLength": "Name must be at least 3 characters long"
+                },
+                "buttonTitle": "Update existing list.",
+                "buttonText": "Update",
+                "toast": {
+                    "success": {
+                        "title": "List updated successfully",
+                        "text": "All changes should now be visible."
+                    },
+                    "error": {
+                        "title": "Error",
+                        "text": "Something went wrong, please try again later."
+                    }
+                }
+            },
+            "createTask": {
+                "header": "New task",
+                "nameInput": {
+                    "label": "Name",
+                    "helperText": "Provide a name for your task",
+                    "placeholder": "Text here...",
+                    "errorRequired": "Name is required",
+                    "errorLength": "Name must be at least 3 characters long"
+                },
+                "descriptionInput": {
+                    "label": "Description",
+                    "helperText": "Describe your task",
+                    "placeholder": "Text here..."
+                },
+                "dateTimeInput": {
+                    "label": "Date and time",
+                    "helperText": "Specify when this task is due"
+                },
+                "buttonTitle": "Create a new task.",
+                "buttonText": "Save",
+                "toast": {
+                    "success": {
+                        "title": "Task created successfully",
+                        "text": "Your new task should now appear in the selected list."
+                    },
+                    "error": {
+                        "title": "Error",
+                        "text": "Something went wrong, please try again later."
+                    }
+                }
+            },
+            "updateTask": {
+                "header": "Update task",
+                "nameInput": {
+                    "label": "Name",
+                    "helperText": "Provide a new name for your task",
+                    "placeholder": "Text here...",
+                    "errorRequired": "Name is required",
+                    "errorLength": "Name must be at least 3 characters long"
+                },
+                "descriptionInput": {
+                    "label": "Description",
+                    "helperText": "Change the description of your task",
+                    "placeholder": "Text here..."
+                },
+                "dateTimeInput": {
+                    "label": "Date and time",
+                    "helperText": "Specify the new due date of this task"
+                },
+                "buttonTitle": "Update existing task.",
+                "buttonText": "Update",
+                "toast": {
+                    "success": {
+                        "title": "Task updated successfully",
+                        "text": "All changes should now be visible."
+                    },
+                    "error": {
+                        "title": "Error",
+                        "text": "Something went wrong, please try again later."
+                    }
+                }
+            },
+            "taskLists": {
+                "header": "Task lists",
+                "noLists": "You don't have any task lists."
+            },
+            "settings": {
+                "header": "Settings",
+                "theme": "Theme",
+                "language": "Language",
+                "toast": "Notifications",
+                "buttonLightTitle": "Switch to light theme.",
+                "buttonDarkTitle": "Switch to dark theme.",
+                "buttonEnTitle": "Switch to English language.",
+                "buttonPlTitle": "Switch to Polish language.",
+                "buttonToastOnTitle": "Enable notifications.",
+                "buttonToastOffTitle": "Disable notifications."
+            },
+            "taskInfo": {
+                "created": "Created",
+                "overdueBy": "Overdue by",
+                "timeLeft": "Time left",
+                "completed": "Completed",
+                "due": "Due",
+                "days": "Days"
+            },
+            "deleteAccount": {
+                "header": "Delete account",
+                "text": "You are about to delete your account and all related data. This operation is final. Are you sure you want to do that?",
+                "buttonTitle": "Delete your account.",
+                "buttonText": "Delete account",
+                "toast": {
+                    "success": {
+                        "title": "Account deleted successfully",
+                        "text": "All information related to your account has been erased."
+                    },
+                    "error": {
+                        "title": "Error",
+                        "text": "Something went wrong, please try again later."
+                    }
+                }
+            }
+        },
+        "task": {
+            "buttonToggleTitle": "Toggle status of this task.",
+            "buttonUpdateTitle": "Edit this task.",
+            "buttonDeleteTitle": "Delete this task.",
+            "buttonListTitle": "Go to related list.",
+            "buttonInfoTitle": "Open task information.",
+            "toast": {
+                "toggle": {
+                    "success": {
+                        "title": "Task status changed successfully"
+                    },
+                    "error": {
+                        "title": "Error",
+                        "text": "Something went wrong, please try again later."
+                    }
+                },
+                "delete": {
+                    "success": {
+                        "title": "Task deleted successfully"
+                    },
+                    "error": {
+                        "title": "Error",
+                        "text": "Something went wrong, please try again later."
+                    }
+                }
+            }
+        },
+        "toast": {
+            "buttonTitle": "Close this popup."
+        }
+    }
+}
