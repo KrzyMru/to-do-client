@@ -15,7 +15,7 @@ const Today = (props: ScreenProps) => {
     const [loading, setLoading] = React.useState<boolean>(false);
     const [tasks, setTasks] = React.useState<TaskProps[]>([]);
     // Timer for smooth animations
-    const listTimer = React.useRef<NodeJS.Timeout|undefined>(undefined);
+    const listTimer = React.useRef<number|undefined>(undefined);
 
     const handleRemoveTask = (taskId: number) => {
         setTasks(prevTasks => prevTasks.filter(task => task.id !== taskId));

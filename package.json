@@ -10,22 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dayjs": "1.11.13",
     "i18next": "^25.0.1",
     "i18next-browser-languagedetector": "^8.0.5",
     "motion": "^12.9.6",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-i18next": "^15.5.1",
     "react-colorful": "^5.6.1",
+    "react-dom": "^19.1.0",
     "react-hook-form": "7.54.2",
+    "react-i18next": "^15.5.1",
     "react-router": "^7.6.0",
-    "react-router-dom": "^7.6.0",
-    "dayjs": "1.11.13"
+    "react-router-dom": "^7.6.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
     "@tailwindcss/vite": "^4.0.6",
-    "@types/node": "^22.11.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",

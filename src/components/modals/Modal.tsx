@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const Modal = (props: ModalBaseProps) => {
     const { open, onClose, children } = { ...props }
     const [render, setRender] = React.useState(false);
-    const timer = useRef<NodeJS.Timeout | undefined>(undefined);
+    const timer = useRef<number | undefined>(undefined);
     const modalRef = useRef<HTMLDivElement | null>(null);
     const { t } = useTranslation();
 

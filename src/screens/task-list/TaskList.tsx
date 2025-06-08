@@ -29,7 +29,7 @@ const TaskList = (props: TaskListProps) => {
     const { openToast } = useContext(ToastContext);
     const { t } = useTranslation();
     // Timer for smooth animations
-    const listTimer = React.useRef<NodeJS.Timeout | undefined>(undefined);
+    const listTimer = React.useRef<number | undefined>(undefined);
 
     const handleDeleteList = async () => {
         try {

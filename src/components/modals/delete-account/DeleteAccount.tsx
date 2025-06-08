@@ -13,7 +13,7 @@ const DeleteAccount = (props: ModalProps) => {
     const [loading, setLoading] = React.useState<boolean>(false);
     const { token, setToken } = useContext(UserContext);
     const { openToast } = useContext(ToastContext);
-    const interval = useRef<NodeJS.Timeout|undefined>(undefined);
+    const interval = useRef<number|undefined>(undefined);
     const { t } = useTranslation();
 
     const timeLeft = (timer / 1000);

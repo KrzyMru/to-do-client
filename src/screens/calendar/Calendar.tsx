@@ -40,8 +40,8 @@ const Calendar = (props: ScreenProps) => {
     const { token, setToken } = useContext(UserContext);
     const { t } = useTranslation();
     // Timers for smooth animations
-    const listTimer = React.useRef<NodeJS.Timeout | undefined>(undefined);
-    const calendarTimer = React.useRef<NodeJS.Timeout | undefined>(undefined);
+    const listTimer = React.useRef<number | undefined>(undefined);
+    const calendarTimer = React.useRef<number | undefined>(undefined);
 
     const calendarDateHeader = t('screens.calendar.months.' + months[calendarDate.month()]) + " " + calendarDate.year();
 

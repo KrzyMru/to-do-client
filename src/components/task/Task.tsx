@@ -20,8 +20,8 @@ const Task = (props: TaskComponentProps) => {
     const [openInfo, setOpenInfo] = React.useState<boolean>(false);
     const [openUpdate, setOpenUpdate] = React.useState<boolean>(false);
     const [loading, setLoading] = React.useState<boolean>(false);
-    const actionTimer = React.useRef<NodeJS.Timeout | undefined>(undefined);
-    const loadingTimer = React.useRef<NodeJS.Timeout | undefined>(undefined);
+    const actionTimer = React.useRef<number | undefined>(undefined);
+    const loadingTimer = React.useRef<number | undefined>(undefined);
 
     const due = dayjs(task.due);
     const now = dayjs();

@@ -5,7 +5,7 @@ import { ScreenContext } from "../../../contexts";
 import { Icon } from "../../icon";
 import { useTranslation } from "react-i18next";
 
-const Settings = (props: TaskListsProps) => {
+const TaskLists = (props: TaskListsProps) => {
     const { open, onClose, listHeaders } = { ...props }
     const { setScreen } = useContext(ScreenContext);
     const { t } = useTranslation();
@@ -51,4 +51,4 @@ const Settings = (props: TaskListsProps) => {
     );
 };
 
-export default Settings;
+export default TaskLists;
