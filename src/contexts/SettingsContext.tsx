@@ -10,7 +10,7 @@ const SettingsContext = createContext<SettingsContextProps>({
 
 const SettingsContextProvider = (props: ContextProviderProps) => {
     const { children } = { ...props }
-    const [theme, setTheme] = React.useState<'light' | 'dusk' | 'dark'>(
+    const [theme, setTheme] = React.useState<'light' | 'dark'>(
         () => {
             try {
                 const item = localStorage.getItem("theme");

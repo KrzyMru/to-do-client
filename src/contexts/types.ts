@@ -12,8 +12,8 @@ interface UserContextProps {
 }
 
 interface SettingsContextProps {
-    theme: 'light' | 'dusk' | 'dark';
-    setTheme: (theme: 'light' | 'dusk' | 'dark') => void;
+    theme: 'light' | 'dark';
+    setTheme: (theme: 'light' | 'dark') => void;
     toast: boolean;
     setToast: (toast: boolean) => void;
 }
